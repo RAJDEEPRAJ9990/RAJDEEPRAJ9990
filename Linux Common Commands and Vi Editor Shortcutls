@@ -1,0 +1,35 @@
+ 
+lists all the contents in the current working directory. 
+ 
+ls <path name> 
+By specifying the path after ls, the content in that path will be displayed. 
+ 
+ls –l  
+lists all the contents along with its owner settings, permissions & time stamp 
+(long format) 
+ 
+ls -a 
+lists all the hidden contents in the specified directory. 
+ 
+ls -lrt 
+list of files in order of recently modified at last. 
+ 
+sudo 
+This command executes only that command with root/ superuser privileges. 
+ 
+sudo useradd <username> 
+Adding a new user 
+ 
+sudo passwd <username> 
+Setting a password for the new user 
+ 
+usermod -aG sudo <user_name> 
+Give root access to the user. 
+ 
+sudo userdel <username> 
+Deleting the user 
+ 
+sudo groupadd <groupname> 
+Adding a new group 
+ 
+sudo groupdel <groupname> 
